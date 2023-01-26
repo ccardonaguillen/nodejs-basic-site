@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Frist NodeJS Project | Contact</title>
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <p>You can send us a message using the following form:</p>
+    <form onsubmit="alert('Form submit is disabled'); return false;">
+        <div>
+            <label for="name">Name: </label>
+            <input id="name" type="text" />
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" type="email" />
+        </div>
+        <div>
+            <label for="message">Message: </label>
+            <textarea id="message" cols="30" rows="5" placeholder="Write you message here"></textarea>
+        </div>
+        <input type="submit">
+    </form>
+    <br>
+    <p>Go back to the <a href="/">Homepage</a></p>
+</body>
+
+</html>
